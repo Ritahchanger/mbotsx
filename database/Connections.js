@@ -14,6 +14,7 @@ const mongoUrl = process.env.MONGO_URL
 
 
 
+
 const connectDb = async () => {
   try {
     await mongoose.connect(mongoUrl, {
